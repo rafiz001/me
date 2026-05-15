@@ -2,11 +2,13 @@
 
 
 @theme {
-  --color-primary: #00ad00;
+  --color-primary: #418728;
   --color-primary-light: #a5ffa5;
   --color-background: #1e1e1e;
   --color-text: #fafafa;
   --color-border: #3e3e3e;
+  --color-card: #5e5e5e;
+  --color-title: #aeaeAe;
 
   /* Fonts */
   --font-primary: "Inter", ui-sans-serif, system-ui;
