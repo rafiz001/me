@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Sidebar from './comp/Sidebar';
+import MainContent from './comp/MainContent';
 function App() {
   const [count, setCount] = useState(0)
 
@@ -9,7 +10,8 @@ function App() {
         <div className='flex flex-col xl:flex-row justify-center gap-4 w-full xl:w-[80%]'>
 
           <Sidebar />
-          <div className='flex-0 xl:flex-8 b i bg-background text-text  p-3 rounded-2xl border border-border'>rafiz</div>
+          
+          <MainContent/>
         </div>
       </div>
     </>
