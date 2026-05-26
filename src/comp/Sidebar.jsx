@@ -23,7 +23,7 @@ function Sidebar() {
                 <div className='flex '>
                     <div className='flex flex-col gap-8'>
                         <div className='flex '>
-                            <div className='bg-card w-12 h-12 rounded-md flex justify-center items-center shadow-[4px_4px_4px_0_rgba(0,0,0,0.25),-1px_-1px_1px_0_rgba(255,255,255,0.3)]'> <MdMailOutline className='w-6 h-6 text-primary' /></div>
+                            <div className='card w-12 h-12 '> <MdMailOutline className='w-6 h-6 text-primary' /></div>
                             <div className='ml-2'>
 
                                 <div className='text-title'>Email</div>
@@ -32,7 +32,7 @@ function Sidebar() {
                             </div>
                         </div>
                         <div className='flex '>
-                            <div className='bg-card w-12 h-12 rounded-md flex justify-center items-center shadow-[4px_4px_4px_0_rgba(0,0,0,0.25),-1px_-1px_1px_0_rgba(255,255,255,0.3)]'> <MdOutlineCall className='w-6 h-6 text-primary' /></div>
+                            <div className='card w-12 h-12 '> <MdOutlineCall className='w-6 h-6 text-primary' /></div>
                             <div className='ml-2'>
                                 <div className='text-title'>Phone</div>
                                 <a target='_blank' href='phone:+8801724065716'>+8801724065716</a>
@@ -40,7 +40,7 @@ function Sidebar() {
 
                         </div>
                         <div className='flex '>
-                            <div className='bg-card w-12 h-12 rounded-md flex justify-center items-center shadow-[4px_4px_4px_0_rgba(0,0,0,0.25),-1px_-1px_1px_0_rgba(255,255,255,0.3)]'> <MdOutlineCalendarMonth className='w-6 h-6 text-primary' /></div>
+                            <div className='card w-12 h-12 '> <MdOutlineCalendarMonth className='w-6 h-6 text-primary' /></div>
                             <div className='ml-2'>
                                 <div className='text-title'>Birth Day</div>
                                 <a target='_blank' href={`https://www.calculator.net/age-calculator.html?today=09%2F06%2F2002&ageat=${(new Date()).getMonth()+1}%2F${(new Date()).getDate()}%2F${(new Date()).getFullYear()}&x=Calculate`}>6 September, 2002</a>
@@ -48,7 +48,7 @@ function Sidebar() {
 
                         </div>
                         <div className='flex '>
-                            <div className='bg-card w-12 h-12 rounded-md flex justify-center items-center shadow-[4px_4px_4px_0_rgba(0,0,0,0.25),-1px_-1px_1px_0_rgba(255,255,255,0.3)]'> <MdOutlineLocationOn className='w-6 h-6 text-primary' /></div>
+                            <div className='card w-12 h-12 '> <MdOutlineLocationOn className='w-6 h-6 text-primary' /></div>
                             <div className='ml-2'>
                                 <div className='text-title'>Location</div>
                                 <a target='_blank' href='https://maps.app.goo.gl/9wiNFMpodfNJr4Mi9' className='truncate'>Chotobongram, Sopura-6203,<br /> Rajshahi, Bangladesh</a>
