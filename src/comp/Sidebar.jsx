@@ -8,7 +8,7 @@ function Sidebar() {
             <div className='flex-0 xl:flex-2 b i bg-background text-text  p-3 rounded-2xl border border-border'>
                 <div className='flex justify-center my-5'>
 
-                    <div className='rounded-3xl bg-card w-32 h-32 flex justify-center items-center'><img src={profile} className='w-28 h-28 rounded-3xl' alt="" /></div>
+                    <div className='rounded-3xl bg-card w-32 h-32 flex justify-center items-center'><img src={'https://placehold.co/400'} className='w-28 h-28 rounded-3xl' alt="" /></div>
                 </div>
                 <h1 className='text-3xl text-center my-3'>
                     Md. Rafiz Uddin
@@ -71,3 +71,6 @@ function Sidebar() {
 }
 
 export default Sidebar
+export function fiz(){
+    return <div>This is a div</div>
+}
