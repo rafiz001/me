@@ -4,8 +4,8 @@ import { MdEmail, MdMailOutline, MdOutlineCalendarMonth, MdOutlineCall, MdOutlin
 import { BsFacebook, BsGithub, BsLinkedin, BsTelegram } from 'react-icons/bs';
 function Sidebar() {
     return (
-        <>
-            <div className='flex-0 xl:flex-2 b i bg-background text-text  p-3 rounded-2xl border border-border'>
+        <><div className='flex-0 xl:flex-2'>
+            <div className='bg-background text-text  p-3 rounded-2xl border border-border sticky top-2'>
                 <div className='flex justify-center my-5'>
 
                     <div className='rounded-3xl bg-card w-32 h-32 flex justify-center items-center'><img src={'https://placehold.co/400'} className='w-28 h-28 rounded-3xl' alt="" /></div>
@@ -43,7 +43,7 @@ function Sidebar() {
                             <div className='card w-12 h-12 '> <MdOutlineCalendarMonth className='w-6 h-6 text-primary' /></div>
                             <div className='ml-2'>
                                 <div className='text-title'>Birth Day</div>
-                                <a target='_blank' href={`https://www.calculator.net/age-calculator.html?today=09%2F06%2F2002&ageat=${(new Date()).getMonth()+1}%2F${(new Date()).getDate()}%2F${(new Date()).getFullYear()}&x=Calculate`}>6 September, 2002</a>
+                                <a target='_blank' href={`https://www.calculator.net/age-calculator.html?today=09%2F06%2F2002&ageat=${(new Date()).getMonth() + 1}%2F${(new Date()).getDate()}%2F${(new Date()).getFullYear()}&x=Calculate`}>6 September, 2002</a>
                             </div>
 
                         </div>
@@ -66,11 +66,12 @@ function Sidebar() {
                     </div>
                 </div>
             </div>
+        </div>
         </>
     )
 }
 
 export default Sidebar
-export function fiz(){
+export function fiz() {
     return <div>This is a div</div>
 }
