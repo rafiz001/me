@@ -6,6 +6,7 @@ import { Route, Router } from 'wouter'
 import { useHashLocation } from 'wouter/use-hash-location'
 import About from './route/About'
 import Resume from './route/Resume'
+import Portfolio from './route/Portfolio'
 
 export default function MainContent() {
 
@@ -19,6 +20,7 @@ export default function MainContent() {
             <Route path={"/about"} component={About}/>
             <Route path={"/"} component={About}/>
             <Route path={"/resume"} component={Resume}/>
+            <Route path={"/portfolio"} component={Portfolio}/>
           </Router>
         </article>
       </div>
