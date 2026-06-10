@@ -118,7 +118,7 @@ export default function Portfolio() {
             </dialog>
             <header className='mt-3'>
                 <h1 className='text-4xl'>Portfolio</h1>
-                <div className='bg-primary w-20 h-1 rounded-3xl'></div>
+                <div className='bg-primary w-20 h-1 my-4 rounded-3xl'></div>
             </header>
             <ul className='flex gap-4 my-4'>
                 <li><button onClick={() => selectCat('All')} className={`${selectedCat == 'All' ? 'text-primary' : ''} cursor-pointer`}>All</button></li>
