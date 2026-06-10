@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <div className=' flex justify-center mt-7'>
-        <div className='flex flex-col xl:flex-row justify-center gap-4 w-full xl:w-[80%]'>
+        <div className='flex flex-col xl:flex-row justify-center gap-4 w-full xl:w-[80%] max-w-6xl'>
 
           <Sidebar />
           

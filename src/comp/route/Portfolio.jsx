@@ -131,8 +131,8 @@ export default function Portfolio() {
                     // console.log(v.category, selectedCat)
                     if (v.category == selectedCat || selectedCat=='All') {
                         return <div key={k} className='flex justify-center'> <div className='scale-100 transition-all duration-500  starting:scale-50'>
-                            <div className='h-40 w-60 object-cover overflow-hidden cursor-pointer relative group' onClick={() => selectProject(k)}>
-                                <img src={v.image} loading='lazy' className='h-40 w-60 rounded-md  duration-200 group-hover:scale-110 group-hover:brightness-50' />
+                            <div className='h-40 w-60 object-cover rounded-md overflow-hidden cursor-pointer relative group' onClick={() => selectProject(k)}>
+                                <img src={v.image} loading='lazy' className='h-40 w-60   duration-200 group-hover:scale-110 group-hover:brightness-50' />
                                 <div className='bg-card rounded-xl p-3 absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] hidden group-hover:block '>
                                     <VscEye className='h-6 w-6 text-primary' />
 
