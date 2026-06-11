@@ -4,8 +4,8 @@ import { MdEmail, MdMailOutline, MdOutlineCalendarMonth, MdOutlineCall, MdOutlin
 import { BsFacebook, BsGithub, BsLinkedin, BsTelegram } from 'react-icons/bs';
 function Sidebar() {
     return (
-        <><div className='flex-0 xl:flex-2'>
-            <div className='bg-background text-text  p-3 rounded-2xl border border-border sticky top-2'>
+        <><div className='flex-0 xl:flex-1'>
+            <div className='bg-background text-text mx-2 p-5 rounded-2xl border border-border sticky top-2'>
                 <div className='flex justify-center my-5'>
 
                     <div className='rounded-3xl bg-card w-32 h-32 flex justify-center items-center'><img src={'https://placehold.co/400'} className='w-28 h-28 rounded-3xl' alt="" /></div>
@@ -27,7 +27,7 @@ function Sidebar() {
                             <div className='ml-2'>
 
                                 <div className='text-title'>Email</div>
-                                <a target='_blank' href='mailto:rafiz.t33pk5@gmail.com'>rafiz.t33pk5@gmail.com</a>
+                                <a className='text-ellipsis' target='_blank' href='mailto:rafiz.t33pk5@gmail.com'>rafiz.t33pk5@gmail.com</a>
 
                             </div>
                         </div>
@@ -49,9 +49,9 @@ function Sidebar() {
                         </div>
                         <div className='flex '>
                             <div className='card w-12 h-12 '> <MdOutlineLocationOn className='w-6 h-6 text-primary' /></div>
-                            <div className='ml-2'>
+                            <div className='ml-2 w-[calc(100%-60px)]  overflow-hidden text-ellipsis whitespace-nowrap '>
                                 <div className='text-title'>Location</div>
-                                <a target='_blank' href='https://maps.app.goo.gl/9wiNFMpodfNJr4Mi9' className='truncate'>Chotobongram, Sopura-6203,<br /> Rajshahi, Bangladesh</a>
+                                <a target='_blank' href='https://maps.app.goo.gl/9wiNFMpodfNJr4Mi9' className=''>Chotobongram, <br />Sopura-6203, <br />Rajshahi, Bangladesh</a>
                             </div>
 
                         </div>

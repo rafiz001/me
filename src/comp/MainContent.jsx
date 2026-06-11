@@ -13,7 +13,7 @@ export default function MainContent() {
 
   return (
     <>
-      <div className='flex-0 xl:flex-8 b i bg-background text-text  p-6 rounded-2xl border border-border relative'>
+      <div className='flex-0 xl:flex-9 b i bg-background text-text  p-6 rounded-2xl border border-border relative'>
         <Navbar />
         
         <article>
